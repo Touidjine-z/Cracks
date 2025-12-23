@@ -1,0 +1,12 @@
+# Configuration YOLO pour la détection de fissures
+# Ce fichier définit la structure du dataset et les classes
+
+# Chemins relatifs au fichier data.yaml
+train: train/images
+val: val/images
+
+# Nombre de classes
+nc: 1
+
+# Noms des classes
+names: ['fissure']
